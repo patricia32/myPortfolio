@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 *.css
 *.css.map
+!index.css
+!App.css
