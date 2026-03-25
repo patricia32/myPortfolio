@@ -1,0 +1,30 @@
+.footer {
+  padding: 2rem;
+  color: var(--gray-text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__links {
+    display: flex;
+    gap: 0.5rem;
+
+    &-icon {
+      font-size: x-large;
+      color: var(--gray-text);
+
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transform: scale(1.2);
+      }
+
+      a:visited {
+        color: var(--gray-text);
+      }
+
+      a:hover {
+        color: var(--primary);
+      }
+    }
+  }
+}
