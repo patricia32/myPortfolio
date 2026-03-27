@@ -12,7 +12,7 @@ export const ProjectsList = () => {
       tags: ['React', 'React Router', 'TypeScript', 'Vite', 'Tailwind'],
       image: '/p1.png',
       category: 'React & TypeScript',
-      github_link: 'https://github.com/patricia32',
+      github_link: 'https://github.com/patricia32/FlavorFeed',
     },
 
     {
@@ -52,7 +52,7 @@ export const ProjectsList = () => {
       ],
       image: '/p4.png',
       category: 'Deep Learning',
-      github_link: 'https://github.com/patricia32',
+      github_link: 'https://github.com/patricia32/DentalX-rayAI',
     },
     {
       id: 5,

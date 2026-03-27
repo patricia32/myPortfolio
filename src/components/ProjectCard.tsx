@@ -10,7 +10,11 @@ interface ProjectCardProps {
 
 export const ProjectCard = ({ title, tags, image, github_link }: ProjectCardProps) => {
   return (
-    <a href={github_link} className="card" title="Take a look on GitHub">
+    <a
+      href={github_link}
+      className="card"
+      title={title.includes('Panoramic') ? 'Not uploaded on GitHub' : 'Take a look on GitHub'}
+    >
       <h3 className="card-title">{title}</h3>
       <div className="card__info">
         <div className="card__info__tags">
