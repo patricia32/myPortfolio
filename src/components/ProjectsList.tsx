@@ -52,7 +52,7 @@ export const ProjectsList = () => {
       ],
       image: '/p4.png',
       category: 'Deep Learning',
-      github_link: 'https://github.com/patricia32/DentalX-rayAI',
+      github_link: 'https://github.com/patricia32',
     },
     {
       id: 5,
