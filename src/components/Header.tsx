@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <div className="header">
       <div className="header__item">
-        <div className="header__item-number">&lt;1</div>
+        <div className="header__item-number">1</div>
         <div className="header__item-text">Year Experience</div>
       </div>
       <div className="header__item">

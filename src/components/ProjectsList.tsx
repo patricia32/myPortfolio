@@ -6,6 +6,16 @@ import './ProjectsList.scss';
 export const ProjectsList = () => {
   const projects: Project[] = [
     {
+      id: 6,
+      title: 'Messenger',
+      content: '',
+      tags: ['React', 'TypeScript', 'Vite', 'CSS', 'MySQL', 'Node.js', 'Express'],
+      image: '/p6.png',
+      category: 'React & TypeScript',
+      github_link: 'https://github.com/patricia32/react-chat',
+    },
+
+    {
       id: 1,
       title: 'Restaurant Review & Recommendation App',
       content: '',
